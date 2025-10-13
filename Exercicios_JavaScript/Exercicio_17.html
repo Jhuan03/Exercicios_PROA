@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 17</title>
+</head>
+<body>
+
+    <style>
+        body {
+            background-color: yellow;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.5;
+        }
+    </style>
+
+    <h1> Exercício 17 </h1>
+
+   <script>
+
+    let idade = parseInt(prompt("Digite a sua idade:"));
+
+    if (idade >= 0 && idade <= 12) {
+        document.write("Você é uma CRIANÇA.");
+    } else if (idade >= 13 && idade <= 17) {
+        document.write("Você é um ADOLESCENTE.");
+    } else if (idade >= 18 && idade <= 59) {
+        document.write("Você é um ADULTO.");
+    } else if (idade >= 60) {
+        document.write("Você é um IDOSO.");
+    } else {
+        document.write("Idade inválida!");
+    }
+
+
+</script>
+</body>
+</html>

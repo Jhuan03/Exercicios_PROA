@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 27</title>
+</head>
+<body>
+    
+    <style>
+        body {
+            background-color: yellow;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.5;
+        }
+    </style>
+
+    <h1> Exercício 27 </h1>
+
+<script>
+
+    let idade = parseInt(prompt("Digite sua idade:"));
+    let sexo = prompt("Digite seu sexo (M para masculino, F para feminino):").toUpperCase();
+
+    if (sexo == "M" && idade >= 65) {
+        document.write("Você pode se aposentar (Homem com " + idade + " anos).");
+    } else if (sexo == "F" && idade >= 60) {
+        document.write("Você pode se aposentar (Mulher com " + idade + " anos).");
+    } else {
+        document.write("Você ainda NÃO pode se aposentar.");
+    }
+
+</script>
+</body>
+</html>

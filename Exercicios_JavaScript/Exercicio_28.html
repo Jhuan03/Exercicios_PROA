@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 28</title>
+</head>
+<body>
+    
+    <style>
+        body {
+            background-color: yellow;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.5;
+        }
+    </style>
+
+    <h1> Exercício 28 </h1> <!-- Quase a mesma coisa do 12 -->
+
+<script>
+
+    let peso = parseFloat(prompt("Digite seu peso em kg:"));
+    let altura = parseFloat(prompt("Digite sua altura em metros:"));
+
+    let imc = peso / (altura * altura);
+
+    document.write("Seu IMC é: " + imc.toFixed(2) + "<br>");
+
+    if (imc < 18.5) {
+        document.write("Classificação: Abaixo do peso");
+    } else if (imc < 25) {
+        document.write("Classificação: Peso normal");
+    } else if (imc < 30) {
+        document.write("Classificação: Sobrepeso");
+    } else if (imc < 35) {
+        document.write("Classificação: Obesidade grau I");
+    } else if (imc < 40) {
+        document.write("Classificação: Obesidade grau II");
+    } else {
+        document.write("Classificação: Obesidade grau III");
+    }
+
+
+</script>
+</body>
+</html>

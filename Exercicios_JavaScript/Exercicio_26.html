@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 26</title>
+</head>
+<body>
+    
+    <style>
+        body {
+            background-color: yellow;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.5;
+        }
+    </style>
+
+    <h1> Exercício 26 </h1>
+
+<script>
+
+    let codigo = parseInt(prompt("Digite o código do produto (1, 2 ou 3):"));
+    let quantidade = parseInt(prompt("Digite a quantidade comprada:"));
+
+    let preco;
+
+    if (codigo == 1) {
+        preco = 5.00;
+    } else if (codigo == 2) {
+        preco = 8.00;
+    } else if (codigo == 3) {
+        preco = 12.00;
+    } else {
+        document.write("Código inválido!");
+    }
+
+    if (preco) {
+        let total = preco * quantidade;
+        document.write("Produto código " + codigo + "<br>");
+        document.write("Quantidade: " + quantidade + "<br>");
+        document.write("Preço unitário: R$ " + preco.toFixed(2) + "<br>");
+        document.write("Valor total a pagar: R$ " + total.toFixed(2));
+    }
+
+
+</script>
+</body>
+</html>

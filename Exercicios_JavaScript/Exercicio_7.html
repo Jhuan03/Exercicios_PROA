@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 7</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: yellow;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.5;
+        }
+    </style>
+    <h1> Exercício 7 </h1>
+    <script>
+
+        let salarioBase = parseFloat(prompt("Digite o salário base do funcionário:"));
+
+        let comissao = salarioBase * 0.05;
+
+        let salarioLiquido = salarioBase + comissao;
+
+        document.write("O salário líquido do funcionário é: R$ " + salarioLiquido.toFixed(2));
+
+    </script>
+    
+</body>
+</html>

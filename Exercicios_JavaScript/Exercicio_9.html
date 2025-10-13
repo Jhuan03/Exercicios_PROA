@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 9</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: yellow;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.5;
+        }
+    </style>
+    <h1> Exercício 9 </h1>
+    <script>
+
+        let deposito = parseFloat(prompt("Digite o valor do depósito mensal:"));
+        let juros = parseFloat(prompt("Digite a taxa de juros mensal (%):")) / 100;
+
+        let montante = 0;
+
+        for (let i = 1; i <= 12; i++) {
+            montante = (montante + deposito) * (1 + juros);
+        }
+
+        document.write("O montante após 12 meses será: R$ " + montante.toFixed(2));
+
+    
+    
+</script> 
+</body>
+</html>
