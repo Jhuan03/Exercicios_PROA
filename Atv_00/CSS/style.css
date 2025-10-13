@@ -1,0 +1,144 @@
+/*EXEMPLO DE AULAS ANTERIORES PROFESSORA ENSINOU DESDE O BÁSICO*/
+body {
+    background-image: url(/img/img_03.png);
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    border-radius: 10px ;
+    margin: -1px;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: firebrick;
+    border-radius:  10px;
+    margin: -1px;
+}
+
+h3 {
+    background-color: darkcyan;
+    font-size: 1.2em;
+    width: 600px;
+    color: aquamarine;
+    font-weight: normal;
+    text-align: center;
+    margin: -1px;
+    margin-left:  500px;
+}
+
+/*img {
+    width: 250px;
+    height: 230px;
+    margin-left:  550px;
+}
+*/
+.diferente{
+    background-color: blueviolet;
+    color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#grande {
+    width: 1024px;
+    height: 728px;
+    align-items: center;
+}
+
+#pequena{
+    width: 150px;
+    height: 130;
+}
+
+#media{
+    width: 270px;
+    height: 250px;
+}
+
+.bodydac {
+    background-color: darkred;
+    color: darkcyan;
+}
+
+h4, h5, h6 {
+    font-family: cursive;
+    background-color: darkmagenta;
+    margin: 0pt;
+    text-align: center;
+
+}
+
+h4 {
+    border: 3px dashed blue;
+}
+
+h5 {
+    border: 5px solid red;
+}
+/*PAGINA CONTEUDO AULA DO DIA 11/08 PROFESSORA ENSINANDO ABSOLUTE E SEMANTICA*/
+#camada1 {
+    position: absolute;
+    left: 250px;
+    top: 200px;
+    width: 150px;
+    height: 120px;
+    background-color: yellow;
+    border: 5px solid red;
+    text-align: center;
+    font-size: 12px;
+    z-index: 2;
+
+}
+
+#camada2 {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    width: 150px;
+    height: 120px;
+    background-color: silver;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 12px;
+    z-index: 1;
+
+}
+
+#camada3 {
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    width: 150px;
+    height: 120px;
+    background-color: aqua;
+    border: 5px solid lime;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+#camada4 {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    
+
+}
+
+#camadaimg {
+     width: 150px;
+    height: 120px;
+}
+
+
+
